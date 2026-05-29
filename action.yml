@@ -1,0 +1,19 @@
+name: Setup inso
+description: Install inso from Kong
+author: step-security
+runs:
+  using: node24
+  main: dist/index.js
+inputs:
+  inso-version:
+    description: The version of inso to install
+    required: true
+  compression:
+    description: 'The compression algorithm to use. One of: [gzip, bzip]'
+    required: false
+  wrapper:
+    description: >-
+      Add a wrapper script to make stdout, stderr and errorcode available as
+      outputs
+    default: 'false'
+    required: false
