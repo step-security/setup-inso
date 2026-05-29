@@ -2,8 +2,6 @@
 
 # setup-inso
 
-> If you are using a version of inso before 10.3.1, please use `step-security/setup-inso@v1`
-
 Install [inso](https://github.com/Kong/insomnia/tree/develop/packages/insomnia-inso) so that it can be used in your GitHub Actions workflows
 
 Add the following to your `steps` definition:
