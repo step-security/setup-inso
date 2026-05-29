@@ -1,0 +1,19 @@
+[[IgnoredVulns]]
+id = "GHSA-2mjp-6q6p-2qxm"
+reason = "undici is a transitive dependency via actions-output-wrapper -> @actions/core@1.11.1 -> @actions/http-client@2.2.3. The wrapper feature only renames a binary and installs a shim; it never triggers HTTP requests through this code path, so the vulnerability is not exploitable."
+
+[[IgnoredVulns]]
+id = "GHSA-4992-7rv2-5pvq"
+reason = "undici is a transitive dependency via actions-output-wrapper -> @actions/core@1.11.1 -> @actions/http-client@2.2.3. The wrapper feature only renames a binary and installs a shim; it never triggers HTTP requests through this code path, so the vulnerability is not exploitable."
+
+[[IgnoredVulns]]
+id = "GHSA-g9mf-h72j-4rw9"
+reason = "undici is a transitive dependency via actions-output-wrapper -> @actions/core@1.11.1 -> @actions/http-client@2.2.3. The wrapper feature only renames a binary and installs a shim; it never triggers HTTP requests through this code path, so the vulnerability is not exploitable."
+
+[[IgnoredVulns]]
+id = "GHSA-v9p9-hfj2-hcw8"
+reason = "undici is a transitive dependency via actions-output-wrapper -> @actions/core@1.11.1 -> @actions/http-client@2.2.3. The wrapper feature only renames a binary and installs a shim; it never triggers HTTP requests through this code path, so the vulnerability is not exploitable."
+
+[[IgnoredVulns]]
+id = "GHSA-vrm6-8vpv-qv8q"
+reason = "undici is a transitive dependency via actions-output-wrapper -> @actions/core@1.11.1 -> @actions/http-client@2.2.3. The wrapper feature only renames a binary and installs a shim; it never triggers HTTP requests through this code path, so the vulnerability is not exploitable."
