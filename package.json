@@ -20,7 +20,7 @@
     "url": "https://github.com/step-security/setup-inso"
   },
   "dependencies": {
-    "@actions/core": "^2.0.1",
+    "@actions/core": "^3.0.1",
     "@actions/tool-cache": "^3.0.0",
     "actions-output-wrapper": "^4.1.4",
     "axios": "^1.16.1",
